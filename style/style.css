@@ -222,6 +222,10 @@ nav>ul>li{
     
 
 }
+.box-title{
+    font-size: 2.875rem;
+    font-weight: 700;
+}
 .elet-1{
     /* font-size: 24px; */
     font-size: 1.5 rem;
@@ -354,6 +358,10 @@ nav>ul>li{
 .btn-8{
     background-color: rgba(93, 88, 240, 1);
 }
+.container-title{
+    font-size:2.875rem ;
+    font-weight: 700;
+}
     
 
 @media screen and (max-width:576px) {
@@ -428,21 +436,47 @@ nav>ul>li{
         display: none;
     }
     .box-title{
-        font-size: 26px;
-        margin: 40px 64px 20px 64px;
+        font-size: 1.625rem;
     }
     .img-2{
         
     }
-    .container-1{
+    .child-content-1{
         display: none;
     }
+    /* .child-container{ */
+        /* display: flex; */
+        /* flex-direction: column; */
+    
     .container{
+        display: grid;
+        gap: 11.31px;
+
+    }
+    .child-content{
         width: 174px;
         height: 180px;
-        display: grid;
-        grid-template-columns: repeat(2 ,1fr);
+
+    }
+    .child-container{
         justify-content: center;
+        align-items: center;
+    }
+
+    .img-tag{
+        width: 173.27px;
+        height: 105.39px;
+    }
+    .child-btn{
+        font-size: 9.3px;
+        margin-left: -0.5px;
+        margin-bottom:-0.5px;
+    }
+    .child-title{
+        font-size: 9.3px;
+    }
+    .container-title{
+        font-size:1.625rem ;
     }
     
 
