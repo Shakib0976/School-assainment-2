@@ -228,7 +228,7 @@ nav>ul>li{
 }
 .elet-1{
     /* font-size: 24px; */
-    font-size: 1.5 rem;
+    font-size: 1rem;
     background-color: orange;
     border-radius: 30px;
     border: none;
@@ -238,7 +238,7 @@ nav>ul>li{
 }
 .elet-2{
     /* font-size: 24px; */
-    font-size: 1.5 rem;
+    font-size: 1rem;
     background-color: orange;
     border-radius: 30px;
     border: none;
@@ -392,6 +392,26 @@ nav>ul>li{
     font-weight:400 ;
     color: white;
 }
+.marque{
+    display: flex;
+    align-items: center;
+    background:orange;
+    margin-top: 40px;
+    color: white;
+
+}
+.marque span{
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    padding: 8px 20px;
+    background:blue;
+    color: #fff;
+    clip-path: polygon(0 0.85%0.100% 100%.0 100%);
+    font-weight: 600;
+
+}
+
     
 
 @media screen and (max-width:576px) {
@@ -513,6 +533,11 @@ nav>ul>li{
     .footer-container{
         flex-direction:column;
         padding:60px 25px;
+    }
+
+    .logo-title{
+        display: block;
+        font-size: 2rem;
     }
     
 
