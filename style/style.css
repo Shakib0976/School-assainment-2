@@ -362,6 +362,36 @@ nav>ul>li{
     font-size:2.875rem ;
     font-weight: 700;
 }
+
+
+/* footer design */
+
+.footer-container{
+    background-color: rgba(1, 172, 253, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 123px 228px 174px 140px;
+}
+.logo-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+.logo-description{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+.k3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+.k6{
+    font-size:1.3rem ;
+    font-weight:400 ;
+    color: white;
+}
     
 
 @media screen and (max-width:576px) {
