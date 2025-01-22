@@ -15,16 +15,16 @@
     display: flex;
 }
 .logo-img{
-    width:60px;
-    height: 62px;
-    /* margin-top: 20px; */
+    /* width:60px;
+    height: 62px; */
+    width: 3.75rem;
+    height: 3.89rem;
 }
 
 .head-container{
     display: flex;
     justify-content: space-around;
     margin: 20px 110px;
-    /* padding: 20px 140px; */
     
 }
 
@@ -43,35 +43,40 @@ nav>ul>li{
    }
 .btn-1{
 
-    font-size: 20px;
+    /* font-size: 20px; */
     font-weight: 400;
+    font-size: 1.25rem;
     color: white;
     padding: 16px 60px;
     background-color: rgba(254, 163, 1, 1);
     border-radius: 12px;
     border: none;
-    /* margin-top: 26px; */
 }
 .logo-title{
-    font-size: 32px;
+    /* font-size: 32px; */
+    font size: 2rem;
     font-weight: 700;
     margin: 17px 0px 15px 13px;
 }
 #list-1{
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     color: rgba(254, 163, 1, 1);
     
 }
 #list-2{
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     color: rgba(1, 172, 253, 1);
 }
 #list-3{
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     color: rgba(5, 212, 223, 1);
 }
 #list-4{
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     color: rgba(93, 88, 239, 1);
 }
 .border{
@@ -96,9 +101,9 @@ nav>ul>li{
     
 
 .header-title{
-    font-size: 56px;
+    /* font-size: 56px; */
+    font-size: 3.5rem;
     font-weight: 700;
-    /* line-height: 61px; */
 }
 .span-1{
     color: rgba(254, 163, 1, 1);
@@ -107,13 +112,15 @@ nav>ul>li{
     color: rgba(1, 172, 253, 1);
 }
 .header-description{
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25 rem;
     font-weight: 400;
     color: rgba(17, 17, 17, 1);
     margin: 24px 0;
 }
 .btn-2{
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     font-weight: 700;
     border-radius: 12px;
     padding: 10px  47px;
@@ -139,7 +146,8 @@ nav>ul>li{
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: 46px;
+    /* font-size: 46px; */
+    font-size: 2.875 rem;
     font-weight: 700;
 }
 .box{
@@ -161,19 +169,22 @@ nav>ul>li{
     margin: 80px 140px 80px 140px ;
 }
 .box-1-title{
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 1.5rem;
     font-weight: 700;
     color: rgba(32, 32, 32, 1);
 }
 .box-1-description{
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 1 rem;
     font-weight: 400;
     color: rgba(128, 128, 128, 1);
 }
 .btn{
     border: none;
     background-color:white;
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-size: 1 rem;
     font-weight: 700;
 }
 .b-1{
@@ -212,7 +223,8 @@ nav>ul>li{
 
 }
 .elet-1{
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 1.5 rem;
     background-color: orange;
     border-radius: 30px;
     border: none;
@@ -221,7 +233,8 @@ nav>ul>li{
     
 }
 .elet-2{
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 1.5 rem;
     background-color: orange;
     border-radius: 30px;
     border: none;
@@ -237,10 +250,16 @@ nav>ul>li{
 .container{
    display:grid;
    grid-template-columns: repeat(2 ,1fr);
+   /* gap: 18px; */
+   column-gap: 18px;
+   margin-left: 18px;
+   
 }
 .child-container{
     display: flex;
+
 }
+
 .container-title{
     display: flex;
     justify-content: center;
@@ -249,21 +268,97 @@ nav>ul>li{
 .bg-color{
     background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 }
-/* .child-content-1{
+.child-content-1{
     width: 541px;
     height: 630px;
+    background-color: white;
+    border-radius:16px;
+
 }
 .child-content{
     width: 291px;
     height: 302px;
-} */
+    background-color: white;
+    border-radius: 16px;
 
+}
+
+.child-container{
+    padding: 80px 142px;
+}
+
+.btn-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.child-box-container{
+    /* padding: 60px auto; */
+}
+/* .img{
+    border-top: 1px solid white;
+    border-radius: 16px;
+} */
+.child-btn{
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 48px;
+    margin-left: 45px;
+    margin-top:-45px;
+
+    
+}
+.img-tag{
+    
+    border-radius: 16px 16px 0px 0px;
+
+}
+
+.child-btn-1{
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    padding: 15px 14px;
+    border-radius: 48px;
+    margin-left: 45px;
+    margin-top:-45px;
+}
+.slidebg{
+    padding: 60px 0 60px 0;
+    border-top: 1px solid whitesmoke;
+}
+.child-title{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 38px;
+    margin-bottom: 37px;
+    margin-top: 20px;
+}
+.child-description{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(102, 102, 102, 1);
+    margin-left: 38px;
+}
+.btn-6{
+    background-color: rgba(60, 216, 232, 1);
+}
+.btn-7{
+    background-color: rgba(149, 178, 38, 1);
+}
+.btn-8{
+    background-color: rgba(93, 88, 240, 1);
+}
     
 
 @media screen and (max-width:576px) {
     .header-container{
         flex-direction:column-reverse;
-        /* justify-content: center; */
         align-items: center;
         margin: 8px 17px;
     }
@@ -274,15 +369,15 @@ nav>ul>li{
 
 
     .header-title{
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 700;
         
     }
     .header-description{
-        font-size: 16px;
+        font-size: 1rem;
     }
     .btn-2{
-        font-size: 16px;
+        font-size: 1rem;
         padding: 6px 24px;
     }
     .logo-title, .ancor-list, .class-button{
@@ -299,7 +394,6 @@ nav>ul>li{
         margin-top: 15px;
     }
     .head-container {
-        /* display: flex; */
         justify-content: space-between;
         margin: 0;
         padding: 12px 16px;
@@ -318,21 +412,16 @@ nav>ul>li{
     .box{
         
         margin: 10px 0;
-        /* padding: 36px 36px; */
         width: 357px;
         height: 322px;
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* text-align: center; */
     }
     .box-1-title{
-        font-size: 16px;
+        font-size: 1 rem;
     }
     .box-1-description{
         font-size: 10px;
     }
     .btn{
-        /* display: block; */
         font-size: 10px;
     }
     .elebetor{
@@ -344,6 +433,16 @@ nav>ul>li{
     }
     .img-2{
         
+    }
+    .container-1{
+        display: none;
+    }
+    .container{
+        width: 174px;
+        height: 180px;
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        justify-content: center;
     }
     
 
