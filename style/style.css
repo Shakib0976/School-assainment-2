@@ -508,6 +508,12 @@ nav>ul>li{
     .container-title{
         font-size:1.625rem ;
     }
+
+
+    .footer-container{
+        flex-direction:column;
+        padding:60px 25px;
+    }
     
 
 
